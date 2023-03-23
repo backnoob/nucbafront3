@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <main>
+    <header class="header">
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+              <div class="nav-title">
+                Tonga's Cycle
+              </div>
+            </div>
+            <div class="nav-btn">
+              <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            
+            <div class="nav-links" id="inicio">
+              <a href="#inicio" >Inicio</a>
+              <a href="#productos" >Nuestros productos</a>
+              <a href="#contacto" >Contactanos</a>
+              <a href="login.html" >Ingresar</a>
+              <a href="register.html" >Registro</a>
+            </div>
+          </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+           <h1 class="hero-title">
+                PRODUCTOS DE VANGUARDIA
+           </h1>  
+           <h2 class="hero-subtitle">
+                Mas de 10 años rodando junto a vos!
+           </h2> 
+           <button type="button" class="btn2" >
+                Conocenos&raquo;
+           </button>
+        </div>
+    </section>
+
+    <div class="container2" id="productos">
+        <div class="card">
+        <img src="https://images.unsplash.com/photo-1531608139434-1912ae0713cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="" class="card__img">  
+        <div class="card__info">
+          <div class="card__user">
+            <div class="bici__text">
+                <p name="news" class="bici_desc">Mountain bike Venzo Loki Evo R29 </p>
+                <h3 class="card__title">$259.999</h3>
+                <p  class="cuotas">Precio en efectivo</p>
+            </div> 
+            <button class="btn btn--primary">Comprar</button>
+          </div>
+        </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" class="card__img">  
+          <div class="card__info">
+            <div class="card__user">
+              <div class="bici__text">
+                <p class="bici_desc">Mountain bike Garnik Retro R54 </p>
+                <h3 class="card__title">$359.999</h3>
+                <p  class="cuotas">6 cuotas sin interes</p>
+              </div>
+              <button class="btn btn--primary">Comprar</button>
+            </div>
+          </div>
+          </div>
+      
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1549216963-72c1712c1196?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="" class="card__img">  
+            <div class="card__info">
+              <div class="card__user">
+                <div class="bici__text">
+                  <p class="bici_desc">Mountain bike Katiz RGSF-54 </p>
+                  <h3 class="card__title">$245.999</h3>
+                  <p  class="cuotas">12 cuotas sin interes</p>
+                </div>
+                <button class="btn btn--primary">Comprar</button>
+              </div>
+            </div>
+            </div>
+      
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1571068316344-75bc76f77890?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" class="card__img">  
+              <div class="card__info">
+                <div class="card__user">
+                    <div class="bici__text">
+                      <p class="bici_desc">Mountain bike Peugeor 2004-M </p>
+                      <h3 class="card__title">$255.999</h3>
+                      <p class="cuotas">12 cuotas sin interes</p>
+                    </div>
+                  <button class="btn btn--primary">Comprar</button>
+                </div>
+              </div>
+              </div>   
+      </div>
+
+      <section id="contacto">
+        <div class="separador">
+            <div>
+              <h2>CONTACTANOS</h2>
+            </div>
+        </div>
+        <form action="/enviar-mensaje" method="POST">
+            <label for="nombre">Nombre:</label><br />
+            <input type="text" id="nombre" name="nombre" /><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" /><br />
+            <label for="mensaje">Mensaje:</label><br />
+            <textarea id="mensaje" name="mensaje"></textarea><br />
+            <input type="submit" class="btn" value="Enviar mensaje" />
+          </form>
+      </section>
+      
+
+      <footer>
+        <div class="footer-content">
+            <h3>Tonga's Cycle</h3>
+            <p>Mas de 10 años rodando junto a vos</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">Tonga's</a>  </p>
+        </div>
+
+    </footer>
+   </main>
+</body>
+</html>
